@@ -110,11 +110,6 @@ const interviews=[
         date:"02/09/2022"
     },
     {
-        applicantId:"2" ,
-        interviewerId:"1",
-        date:"02/09/2022"
-    },
-    {
         applicantId:"3" ,
         interviewerId:"1",
         date:"02/09/2022"
