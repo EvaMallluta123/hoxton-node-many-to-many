@@ -187,10 +187,10 @@ for (let applicant of applicants) {
 }
 
 //Interviewers
-// const dropInterviewersTable = db.prepare(`
-//  DROP TABLE IF EXISTS interviewers;
-//  `);
-// dropInterviewersTable.run();
+const dropInterviewersTable = db.prepare(`
+ DROP TABLE IF EXISTS interviewers;
+ `);
+dropInterviewersTable.run();
 
 const createInterviewersTable = db.prepare(`
 CREATE TABLE IF NOT EXISTS interviewers(
